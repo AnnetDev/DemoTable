@@ -126,13 +126,13 @@ function renderTable(data) {
                 subRow.innerHTML = `
                     <td>${subitem.name}</td>
                     <td class="subitem-value current">${formatNumber(subitem.values.current)}</td>
-                    <td class="yesterday" style="background-color: ${bgColorYesterdaySub}; position: relative;">
+                    <td class="yesterday" position: relative;">
                         ${formatNumber(subitem.values.yesterday)}
                         <span class="change-value" style="color:${subitem.values.current >= subitem.values.yesterday ? 'green' : 'red'}">
                             ${calculateChange(subitem.values.current, subitem.values.yesterday)}%
                         </span>
                     </td>
-                    <td class="weekly" style="background-color: ${bgColorWeeklySub};">
+                    <td class="weekly">
                         ${formatNumber(subitem.values.weekly)}
                     </td>
                 `;

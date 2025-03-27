@@ -11,11 +11,11 @@
                 },
                 {
                     "name": "Безналичный расчет",
-                    "values": { "current": 100000, "yesterday": 80000, "weekly": 90000 }
+                    "values": { "current": 100000, "yesterday": 100000, "weekly": 100000 }
                 },
                 {
                     "name": "Кредитные карты",
-                    "values": { "current": 100521, "yesterday": 100521, "weekly": 105000 }
+                    "values": { "current": 100521, "yesterday": 100521, "weekly": 100521 }
                 }
             ]
         },

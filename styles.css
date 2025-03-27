@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: none;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #F5F5F5;
+}
+
+/* Стили для подпунктов */
+.sub-item td {
+    padding-left: 30px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Стиль для строки аккордеона с графиком */
+.accordion-content {
+    display: none;
+}
+
+.accordion-content.expanded {
+    display: table-row;
+    background-color: #f9f9f9;
+}
+
+thead tr {
+    position: relative;
+}
+
+.change {
+    position: absolute;
+    
+}

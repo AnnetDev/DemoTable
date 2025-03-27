@@ -1,0 +1,79 @@
+{
+    "metrics": [
+        {
+            "name": "Выручка, руб",
+            "values": { "current": 500521, "yesterday": 480521, "weekly": 4805121 },
+            "chartData": [450000, 460000, 470000, 480000, 490000, 480521, 500521],
+            "subitems": [
+                {
+                    "name": "Наличные",
+                    "values": { "current": 300000, "yesterday": 300000, "weekly": 300000 }
+                },
+                {
+                    "name": "Безналичный расчет",
+                    "values": { "current": 100000, "yesterday": 80000, "weekly": 90000 }
+                },
+                {
+                    "name": "Кредитные карты",
+                    "values": { "current": 100521, "yesterday": 100521, "weekly": 105000 }
+                }
+            ]
+        },
+        {
+            "name": "Средний чек, руб",
+            "values": {
+                "current": 1300,
+                "yesterday": 900,
+                "weekly": 900
+            },
+            "chartData": [800, 850, 900, 950, 1000, 900, 1300]
+                },
+        {
+            "name": "Средний гость, руб",
+            "values": {
+                "current": 1200,
+                "yesterday": 800,
+                "weekly": 800
+            },
+            "chartData": [700, 750, 800, 850, 900, 800, 1200]
+                },
+        {
+            "name": "Удаления из чека (после оплаты), руб",
+            "values": {
+                "current": 1000,
+                "yesterday": 1100,
+                "weekly": 900
+            },
+            "chartData": [700, 750, 800, 850, 900, 1100, 1000]
+                },
+        {
+            "name": "Удаления из чека (до оплаты), руб",
+            "values": {
+                "current": 1300,
+                "yesterday": 1300,
+                "weekly": 900
+            },
+            "chartData": [700, 750, 800, 850, 900, 1300, 1300]
+
+                },
+        {
+            "name": "Количество чеков",
+            "values": {
+                "current": 34,
+                "yesterday": 36,
+                "weekly": 34
+            },
+            "chartData": [35, 34, 30, 34, 40, 34, 36]
+
+                },
+        {
+            "name": "Количество гостей",
+            "values": {
+                "current": 34,
+                "yesterday": 36,
+                "weekly": 32
+            },
+            "chartData": [35, 34, 30, 34, 40, 34, 36]
+                }
+    ]
+}
